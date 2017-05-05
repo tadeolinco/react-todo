@@ -11,7 +11,7 @@ class App extends Component {
             todos: []
         };
     }
-
+    // ============================================================
     componentDidMount() {}
 
     onCheckComplete = todo => {
@@ -25,6 +25,7 @@ class App extends Component {
 
     onClickDelete = id => {};
 
+    // ==============================================================
     onChangeTodoText = event => {
         this.setState({
             newTodoText: event.target.value
